@@ -218,6 +218,35 @@ export default function Code() {
       date: "October 2024",
       description: "Exoploring generative and autonomous art. This project was made using Object Oriented Programming (OOP) with p5.js, Adobe Illustrator, and Adobe After Effects, with an emphasis on the p5.play library.",
       tags: ["OOP", "JavaScript", "Illustrator", "After Effects"],
+      sections:[
+        {
+          images: [
+            heroImg,
+          ],
+        },
+        {
+          heading: "Project Overview",
+          text: [
+            "Imitation of a Japanese koi pond using generative art, where all the graphics and animations are personally made moving on a canvas with a blue gradient background and ripples.",
+          ],
+        },
+        {
+          heading: "Artist Statement",
+          text: [
+            "This piece is a collection of patterns observed in nature, moving in random motion. It attempted to mimic the flowing movement of nature, specifically a Koi Pond, mesmerizing the audience with visuals and audio. With this assignment, I wanted to replicate the organic patterns and movement of nature using a highly contrasted medium, technology and programs, which is often associated with rigidness and artificial feeling. In addition, I wanted to show the connection and similarities between nature and generative art, particularly connecting patterns and algorithms respectively.",
+          ],
+        },
+        {
+          heading: "Formal Qualities",
+          text: [
+            "One goal of the piece was to allow the audience to feel relaxed, immersed, and surrounded by nature, reminiscing a pond through visuals and audio. The piece is not interactive, but it incorporates various elements in motion, influenced by randomness. To start, the background is a gradient of blue, attempting to mimic the various depths we see when looking at water. Next we have the personally designed and animated koi fish, produced with Adobe Illustrator and After Effects, which move with a particular pattern. However, they also have a factor of randomness, randomizing their colour animation and angle of trajectory. Likewise, we also have lily pads, which are randomly assigned flowers and slowly move across the screen and rotate with a random speed. This was to help mimic lily pads floating on water. Next, we have the randomized ripples appearing on the surface of the water to create more movement within the piece. Finally, to fully immerse, calm, and mesmerize the audience, I added very mellow and ambient audio in the background, creating a very zen feeling.",
+          ],
+        },
+        {},
+        {},
+        {},
+        {},
+      ],
     },
 
   ];
