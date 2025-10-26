@@ -242,10 +242,6 @@ export default function Code() {
             "One goal of the piece was to allow the audience to feel relaxed, immersed, and surrounded by nature, reminiscing a pond through visuals and audio. The piece is not interactive, but it incorporates various elements in motion, influenced by randomness. To start, the background is a gradient of blue, attempting to mimic the various depths we see when looking at water. Next we have the personally designed and animated koi fish, produced with Adobe Illustrator and After Effects, which move with a particular pattern. However, they also have a factor of randomness, randomizing their colour animation and angle of trajectory. Likewise, we also have lily pads, which are randomly assigned flowers and slowly move across the screen and rotate with a random speed. This was to help mimic lily pads floating on water. Next, we have the randomized ripples appearing on the surface of the water to create more movement within the piece. Finally, to fully immerse, calm, and mesmerize the audience, I added very mellow and ambient audio in the background, creating a very zen feeling.",
           ],
         },
-        {},
-        {},
-        {},
-        {},
       ],
     },
 
