@@ -1,5 +1,5 @@
 import React from "react";
-import ProjectGallery from "../../components/ProjectGallery/ProjectGallery";
+import { ProjectGallery } from "eportfolio-shared";
 import "./Code.css"
 import heroImg from "../../assets/Images/koibg.png"
 

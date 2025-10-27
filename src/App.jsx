@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './App.css'
-import Navbar from './components/Navbar/Navbar'
+
+import { Navbar, Footer } from "eportfolio-shared";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home/Home";
@@ -10,7 +11,7 @@ import Gallery from "./pages/Gallery";
 import Code from "./pages/Code/Code";
 import About from "./pages/About";
 import Connect from './pages/Connect'
-import Footer from './components/Footer/Footer'
+
 
 function App() {
 
