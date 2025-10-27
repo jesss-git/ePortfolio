@@ -4,11 +4,14 @@ import './App.css'
 import { Navbar, Footer } from "eportfolio-shared";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
+import { CodePage } from "eportfolio-code";
+
 import Home from "./pages/Home/Home";
 import UXUI from "./pages/UXUI";
 import Graphics from "./pages/Graphics";
 import Gallery from "./pages/Gallery";
-import Code from "./pages/Code/Code";
+// import Code from "./pages/Code/Code";
 import About from "./pages/About";
 import Connect from './pages/Connect'
 
@@ -25,7 +28,7 @@ function App() {
           <Route path="/ux-ui" element={<UXUI />} />
           <Route path="/graphics" element={<Graphics />} />
           <Route path="/gallery" element={<Gallery />} />
-          <Route path="/code" element={<Code />} />
+          <Route path="/code" element={<CodePage />} />
           <Route path="/about" element={<About />} />
           <Route path="/connect" element={<Connect />} />
         </Routes>

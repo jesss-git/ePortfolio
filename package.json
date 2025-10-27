@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "eportfolio-code": "github:jesss-git/ePortfolio-Code",
     "eportfolio-shared": "github:jesss-git/ePortfolio-Shared",
     "framer-motion": "^12.23.12",
     "lucide-react": "^0.544.0",
