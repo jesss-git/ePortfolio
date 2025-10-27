@@ -1,6 +1,6 @@
 import "./Footer.css";
 import { FaTwitter, FaGithub, FaLinkedin } from "react-icons/fa";
-import viteLogo from "/vite.svg";
+import personalLogo from "../../assets/personalLogo.png";
 
 const NAV_LINKS = [
   { name: "HOME", path: "/" },
@@ -19,7 +19,7 @@ export default function Footer() {
         <div className="footer-logo">
         <a href="/">
             <img
-              src={viteLogo}
+              src={personalLogo}
               alt="Portfolio Logo"
               className="footer-logo-img"
             />
