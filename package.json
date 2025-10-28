@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "eportfolio-code": "github:jesss-git/ePortfolio-Code",
+    "eportfolio-gallery": "github:jesss-git/ePortfolio-Gallery",
     "eportfolio-graphics": "github:jesss-git/ePortfolio-Graphics",
     "eportfolio-shared": "github:jesss-git/ePortfolio-Shared",
     "eportfolio-uxui": "github:jesss-git/ePortfolio-UXUI",
