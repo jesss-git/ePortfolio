@@ -12,6 +12,7 @@
   "dependencies": {
     "eportfolio-code": "github:jesss-git/ePortfolio-Code",
     "eportfolio-shared": "github:jesss-git/ePortfolio-Shared",
+    "eportfolio-uxui": "github:jesss-git/ePortfolio-UXUI",
     "framer-motion": "^12.23.12",
     "lucide-react": "^0.544.0",
     "react": "^19.1.1",
