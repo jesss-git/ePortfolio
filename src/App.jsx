@@ -4,6 +4,7 @@ import './App.css'
 import { Navbar, Footer } from "eportfolio-shared";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import ScrollToTop from './ScrollToTop';
 
 import { CodePage } from "eportfolio-code";
 import { UXUIPage } from "eportfolio-uxui";
@@ -21,7 +22,7 @@ function App() {
     <Router>
       <Navbar />
       <main style={{ paddingTop: "80px" }}>
-
+        <ScrollToTop />
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path="/ux-ui" element={<UXUIPage />} />
