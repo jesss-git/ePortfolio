@@ -30,7 +30,7 @@ export default function Home() {
       <section className="disciplines">
         <h2>Explore My Work</h2>
         <div className="discipline-grid">
-          <a href="/ux-ui" className="discipline-card">UX / UI</a>
+          <a href="/experience" className="discipline-card">Experience</a>
           <a href="/graphics" className="discipline-card">Graphics</a>
           <a href="/gallery" className="discipline-card">Gallery</a>
           <a href="/code" className="discipline-card">Code</a>

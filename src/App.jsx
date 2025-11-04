@@ -7,7 +7,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import ScrollToTop from './ScrollToTop';
 
 import { CodePage } from "eportfolio-code";
-import { UXUIPage } from "eportfolio-uxui";
+import { ExperiencePage } from "eportfolio-experience";
 import { GraphicsPage } from "eportfolio-graphics";
 import { GalleryPage } from "eportfolio-gallery";
 
@@ -25,7 +25,7 @@ function App() {
         <ScrollToTop />
         <Routes>
           <Route path='/' element={<Home />} />
-          <Route path="/ux-ui" element={<UXUIPage />} />
+          <Route path="/experience" element={<ExperiencePage />} />
           <Route path="/graphics" element={<GraphicsPage />} />
           <Route path="/gallery" element={<GalleryPage />} />
           <Route path="/code" element={<CodePage />} />
